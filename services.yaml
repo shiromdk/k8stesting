@@ -8,8 +8,6 @@ spec:
   # The service becomes a network endpoint for either other services or external users
   selector:
     app:  webapp
-    release: "0"
-
   ports:
     - name: http
       port: 80
