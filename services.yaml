@@ -35,7 +35,7 @@ spec:
   
   ports:
     - name: http
-      port: 8061
+      port: 8161
       nodePort: 30010
 
   #A node port exposes the service on a static port on the node IP address. 
